@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "npx prisma generate && next build",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "functions": {
+    "src/app/api/generate/video/route.ts": {
+      "maxDuration": 300
+    },
+    "src/app/api/generate/image/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
