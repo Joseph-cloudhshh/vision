@@ -13,9 +13,8 @@ const syne = Syne({
 const dmSans = DM_Sans({
   subsets: ['latin'],
   variable: '--font-body',
-  weight: ['300', '400', '500'],
+  weight: 'variable',
   style: ['normal', 'italic'],
-  axes: ['opsz'],
 })
 
 const jetbrainsMono = JetBrains_Mono({
